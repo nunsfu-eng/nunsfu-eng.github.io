@@ -1,0 +1,785 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; form-action https://t.me; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Астролог Евгения — натальная карта и Симболон-карты онлайн</title>
+<meta name="description" content="Консультации астролога онлайн: натальная карта, соляр, расклады на Симболон-картах. Цены от 500 ₽. Запись через Telegram.">
+<link rel="canonical" href="https://nunsfu-eng.github.io/">
+<meta name="theme-color" content="#0C1430">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Евгения — астролог">
+<meta property="og:title" content="Астролог Евгения — натальная карта и Симболон-карты онлайн">
+<meta property="og:description" content="Консультации астролога онлайн: натальная карта, соляр, расклады на Симболон-картах. Запись через Telegram.">
+<meta property="og:url" content="https://nunsfu-eng.github.io/">
+<meta property="og:image" content="https://nunsfu-eng.github.io/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Евгения — астролог и мастер Симболон-карт: портрет в золотой орбите и чёрная кошка на ночном небе">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Астролог Евгения — натальная карта и Симболон-карты онлайн">
+<meta name="twitter:description" content="Консультации астролога онлайн: натальная карта, соляр, расклады на Симболон-картах.">
+<meta name="twitter:image" content="https://nunsfu-eng.github.io/og-image.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script src="js/init.js"></script>
+<link rel="preload" href="fonts/cormorant-garamond-cyrillic-wght-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/main.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://nunsfu-eng.github.io/#website",
+   "url": "https://nunsfu-eng.github.io/",
+   "name": "Евгения — астролог и мастер Симболон-карт",
+   "inLanguage": "ru-RU",
+   "publisher": {
+    "@id": "https://nunsfu-eng.github.io/#person"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://nunsfu-eng.github.io/#person",
+   "name": "Евгения",
+   "jobTitle": "Астролог, мастер Симболон-карт",
+   "url": "https://nunsfu-eng.github.io/",
+   "image": "https://nunsfu-eng.github.io/img/evgenia-480.png",
+   "knowsAbout": [
+    "Астрология",
+    "Натальная карта",
+    "Соляр",
+    "Симболон-карты"
+   ],
+   "sameAs": [
+    "https://t.me/yourfreckle"
+   ]
+  },
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://nunsfu-eng.github.io/#service",
+   "name": "Евгения — астролог и мастер Симболон-карт",
+   "description": "Онлайн-консультации астролога и расклады на Симболон-картах. Запись через Telegram.",
+   "url": "https://nunsfu-eng.github.io/",
+   "image": "https://nunsfu-eng.github.io/og-image.jpg",
+   "founder": {
+    "@id": "https://nunsfu-eng.github.io/#person"
+   },
+   "priceRange": "500–8000 RUB",
+   "currenciesAccepted": "RUB",
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "url": "https://t.me/yourfreckle",
+    "availableLanguage": "ru"
+   },
+   "sameAs": [
+    "https://t.me/yourfreckle"
+   ],
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Услуги",
+    "itemListElement": [
+     {
+      "@type": "OfferCatalog",
+      "name": "Астрология",
+      "description": "Астрологические консультации онлайн",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "price": "8000",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Разбор натальной карты",
+         "description": "Подробный разбор натальной карты: положение планет, знаков и домов в вашей карте.",
+         "serviceType": "Астрология",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "5000",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Соляр (прогноз на год от дня рождения)",
+         "description": "Разбор карты солнечного возвращения: темы и акценты года от одного дня рождения до следующего.",
+         "serviceType": "Астрология",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "3000",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Разбор отдельных сфер",
+         "description": "Разбор выбранной сферы по натальной карте: например, отношений, финансов или самореализации.",
+         "serviceType": "Астрология",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       }
+      ]
+     },
+     {
+      "@type": "OfferCatalog",
+      "name": "Симболон-карты",
+      "description": "Расклады на Симболон-картах онлайн",
+      "itemListElement": [
+       {
+        "@type": "Offer",
+        "price": "500",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Обычный расклад",
+         "description": "Расклад на Симболон-картах по вашему вопросу из любой сферы жизни.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "600",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Астрологический портрет",
+         "description": "Расклад на Симболон-картах, который описывает вас через астрологические символы.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "900",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Психологический портрет",
+         "description": "Расклад на Симболон-картах о ваших качествах, мотивах и особенностях характера. Это не психологическая консультация.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "900",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Внутренний конфликт",
+         "description": "Расклад на Симболон-картах о противоречиях между «хочу» и «надо» и о том, что за ними стоит.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "800",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Причины одиночества",
+         "description": "Расклад на Симболон-картах о том, что может влиять на отсутствие близких отношений.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "800",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Финансовый расклад",
+         "description": "Расклад на Симболон-картах о вашем отношении к деньгам и финансовым вопросам.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "800",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Существующие отношения",
+         "description": "Расклад на Симболон-картах о том, как складываются ваши текущие отношения.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "1000",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Конфликт в паре",
+         "description": "Расклад на Симболон-картах о причинах и динамике конфликта между партнёрами.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "1500",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Любовный треугольник",
+         "description": "Расклад на Симболон-картах о ситуации с участием трёх людей и роли каждого.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "800",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Мысли и чувства человека",
+         "description": "Расклад на Симболон-картах о том, что может думать и чувствовать другой человек.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "1500",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Прогноз на месяц",
+         "description": "Расклад на Симболон-картах: темы и акценты ближайшего месяца.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "2500",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Прогноз на полгода",
+         "description": "Расклад на Симболон-картах: темы и акценты ближайших шести месяцев.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       },
+       {
+        "@type": "Offer",
+        "price": "5000",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://nunsfu-eng.github.io/#booking",
+        "itemOffered": {
+         "@type": "Service",
+         "name": "Прогноз на год",
+         "description": "Расклад на Симболон-картах: темы и акценты ближайшего года.",
+         "serviceType": "Симболон-карты",
+         "provider": {
+          "@id": "https://nunsfu-eng.github.io/#service"
+         }
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержимому</a>
+
+<header class="site-header">
+  <a class="logo" href="./">Евгения</a>
+  <nav class="site-nav" aria-label="Разделы">
+    <a href="#about">Обо мне</a><a href="#astrology">Астрология</a><a href="#symbolon">Симболон</a><a href="#booking">Запись</a>
+  </nav>
+  <a class="cta cta--sm" href="#booking" data-slow-blink>Записаться</a>
+</header>
+
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-title" data-guide="home">
+    <svg class="hero-sky" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+      <path d="M40 60h0M120 30h0M210 90h0M300 40h0M380 120h0M470 20h0M560 80h0M640 30h0M720 110h0M810 50h0M900 90h0M960 30h0M60 200h0M150 260h0M90 340h0M30 430h0M140 520h0M60 610h0M200 660h0M880 220h0M950 300h0M860 380h0M970 470h0M900 560h0M820 640h0M940 680h0M260 180h0M740 200h0M330 600h0M690 620h0M520 660h0M420 640h0" stroke="#E9E4D8" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+      <path d="M180 150h0M820 160h0M110 450h0M910 420h0M760 560h0M250 580h0M600 140h0" stroke="#E2C47E" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M110 450L160 400L230 410L250 580M820 160L860 230L910 220L910 420" fill="none" stroke="#E2C47E" stroke-opacity=".35"/>
+    </svg>
+    <svg class="hero-ring" viewBox="-500 -500 1000 1000" aria-hidden="true" focusable="false">
+      <g fill="none" stroke="#B8924A">
+        <circle r="482" stroke-opacity=".7"/><circle r="472" stroke-opacity=".45"/><circle r="400" stroke-opacity=".55"/>
+        <circle r="330" stroke-opacity=".35" stroke-dasharray="2 8"/>
+        <path stroke-opacity=".55" d="M0 -400L0 -472M200 -346.4L236 -408.8M346.4 -200L408.8 -236M400 0L472 0M346.4 200L408.8 236M200 346.4L236 408.8M0 400L0 472M-200 346.4L-236 408.8M-346.4 200L-408.8 236M-400 0L-472 0M-346.4 -200L-408.8 -236M-200 -346.4L-236 -408.8"/>
+      </g>
+      <g fill="#B8924A" fill-opacity=".8" font-family="Georgia, serif" font-size="24" text-anchor="middle">
+        <text x="112.6" y="-412">I</text><text x="307.6" y="-299">II</text><text x="420.2" y="-104">III</text><text x="420.2" y="121">IV</text>
+        <text x="307.6" y="316">V</text><text x="112.6" y="428">VI</text><text x="-112.6" y="428">VII</text><text x="-307.6" y="316">VIII</text>
+        <text x="-420.2" y="121">IX</text><text x="-420.2" y="-104">X</text><text x="-307.6" y="-299">XI</text><text x="-112.6" y="-412">XII</text>
+      </g>
+    </svg>
+
+    <svg class="cat cat--hero" data-cat="hero" viewBox="20 24 380 444" width="380" height="444" aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id="a-fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#151E40"/><stop offset="1" stop-color="#05080F"/></linearGradient>
+        <radialGradient id="a-iris" cx="50%" cy="62%" r="62%"><stop offset="0" stop-color="#FCE9AE"/><stop offset=".55" stop-color="#E6B85A"/><stop offset="1" stop-color="#9C6A24"/></radialGradient>
+        <clipPath id="a-clip-l"><ellipse cx="160" cy="160" rx="25" ry="21" transform="rotate(-8 160 160)"/></clipPath>
+        <clipPath id="a-clip-r"><ellipse cx="240" cy="160" rx="25" ry="21" transform="rotate(8 240 160)"/></clipPath>
+        <g id="a-head">
+          <path d="M112 112C108 88 108 60 114 42Q117 33 124 39C138 52 152 68 166 86Q200 76 234 86C248 68 262 52 276 39Q283 33 286 42C292 60 292 88 288 112C302 128 306 148 304 164L314 172L302 178L310 190C292 214 256 228 200 230C144 228 108 214 90 190L98 178L86 172L96 164C94 148 98 128 112 112Z" fill="url(#a-fur)" stroke="#E2C47E" stroke-width="2.2" stroke-linejoin="round"/>
+          <path d="M124 50Q130 72 154 88Q136 90 120 100Q116 74 124 50ZM276 50Q270 72 246 88Q264 90 280 100Q284 74 276 50Z" fill="#E2C47E" fill-opacity=".14" stroke="#E2C47E" stroke-opacity=".7" stroke-width="1.2"/>
+          <path d="M108 140C104 156 106 172 112 182M118 130C114 148 116 166 122 178M292 140C296 156 294 172 288 182M282 130C286 148 284 166 278 178M184 98Q200 92 216 98M178 108Q200 100 222 108M190 118Q200 114 210 118M176 196Q186 186 196 190M224 196Q214 186 204 190M140 184Q160 192 180 184M220 184Q240 192 260 184M126 60L140 84M123 72L133 90M274 60L260 84M277 72L267 90" fill="none" stroke="#E2C47E" stroke-opacity=".55" stroke-width="1.1" stroke-linecap="round"/>
+          <path d="M191 191Q200 186 209 191Q206 199 200 202Q194 199 191 191Z" fill="#D7A86A"/>
+          <path d="M200 202V208M200 208Q193 216 185 211M200 208Q207 216 215 211" fill="none" stroke="#E2C47E" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M156 200Q120 192 78 196M156 206Q118 206 82 216M158 212Q124 222 94 236M244 200Q280 192 322 196M244 206Q282 206 318 216M242 212Q276 222 306 236" fill="none" stroke="#EFE3BF" stroke-opacity=".75" stroke-width="1" stroke-linecap="round"/>
+        </g>
+      </defs>
+      <g class="cat-tail">
+        <path d="M282 448C336 458 378 424 372 374C368 340 348 328 354 302C357 290 366 286 374 290" fill="none" stroke="#E2C47E" stroke-width="25" stroke-linecap="round"/>
+        <path d="M282 448C336 458 378 424 372 374C368 340 348 328 354 302C357 290 366 286 374 290" fill="none" stroke="#080C1C" stroke-width="20.5" stroke-linecap="round"/>
+        <path d="M326 436Q330 444 332 453M354 413L372 423M362 372L382 374M354 344L364 326" fill="none" stroke="#E2C47E" stroke-opacity=".55" stroke-width="1.1" stroke-linecap="round"/>
+      </g>
+      <path d="M148 214C122 246 110 300 112 344C88 364 80 420 104 452C110 458 120 460 132 460L268 460C280 460 290 458 296 452C320 420 312 364 288 344C290 300 278 246 252 214Z" fill="url(#a-fur)" stroke="#E2C47E" stroke-width="2.2" stroke-linejoin="round"/>
+      <path d="M156 226C134 254 122 298 122 336M166 240C148 266 136 300 134 330M176 256C162 278 150 304 148 324M244 226C266 254 278 298 278 336M234 240C252 266 264 300 266 330M224 256C238 278 250 304 252 324M118 362C100 378 94 418 110 444M128 372C114 386 110 414 120 436M282 362C300 378 306 418 290 444M272 372C286 386 290 414 280 436M180 262Q190 276 200 268Q210 276 220 262M186 290Q194 300 200 296Q206 300 214 290M192 316Q197 322 200 320Q203 322 208 316" fill="none" stroke="#E2C47E" stroke-opacity=".5" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M168 300C164 360 160 410 156 440M232 300C236 360 240 410 244 440M184 334C182 380 180 418 178 440M216 334C218 380 220 418 222 440" fill="none" stroke="#E2C47E" stroke-width="1.8" stroke-linecap="round"/>
+      <ellipse cx="167" cy="450" rx="21" ry="11" fill="#0A0F22" stroke="#E2C47E" stroke-width="2"/>
+      <ellipse cx="233" cy="450" rx="21" ry="11" fill="#0A0F22" stroke="#E2C47E" stroke-width="2"/>
+      <path d="M160 452v7M167 451v8M174 452v7M226 452v7M233 451v8M240 452v7" stroke="#E2C47E" stroke-opacity=".7" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M152 222Q200 248 248 222" fill="none" stroke="#E2C47E" stroke-width="3" stroke-linecap="round"/>
+      <path d="M206 241A8 8 0 1 0 206 255A12 12 0 0 1 206 241Z" fill="#E2C47E"/>
+      <use href="#a-head"/>
+      <g class="cat-eye" data-eye data-blink>
+        <ellipse class="cat-eye-shape" cx="160" cy="160" rx="25" ry="21" transform="rotate(-8 160 160)" fill="url(#a-iris)"/>
+        <path d="M173 160L181 160M171.3 165.5L178.2 169M166.5 169.5L170.5 175.6M153.5 169.5L149.5 175.6M148.7 165.5L141.8 169M147 160L139 160M148.7 154.5L141.8 151M153.5 150.5L149.5 144.4M166.5 150.5L170.5 144.4M171.3 154.5L178.2 151" stroke="#8A5A1E" stroke-opacity=".45" stroke-width="1"/>
+        <g clip-path="url(#a-clip-l)"><g class="cat-look"><ellipse cx="160" cy="161" rx="8.5" ry="16" fill="#04060D"/></g></g>
+        <circle cx="151" cy="151" r="4.4" fill="#FFF8E6"/><circle cx="168" cy="169" r="1.8" fill="#FFF8E6" fill-opacity=".8"/>
+        <ellipse cx="160" cy="160" rx="25" ry="21" transform="rotate(-8 160 160)" fill="none" stroke="#E2C47E" stroke-width="2"/>
+      </g>
+      <g class="cat-eye" data-eye data-blink>
+        <ellipse class="cat-eye-shape" cx="240" cy="160" rx="25" ry="21" transform="rotate(8 240 160)" fill="url(#a-iris)"/>
+        <path d="M253 160L261 160M251.3 165.5L258.2 169M246.5 169.5L250.5 175.6M233.5 169.5L229.5 175.6M228.7 165.5L221.8 169M227 160L219 160M228.7 154.5L221.8 151M233.5 150.5L229.5 144.4M246.5 150.5L250.5 144.4M251.3 154.5L258.2 151" stroke="#8A5A1E" stroke-opacity=".45" stroke-width="1"/>
+        <g clip-path="url(#a-clip-r)"><g class="cat-look"><ellipse cx="240" cy="161" rx="8.5" ry="16" fill="#04060D"/></g></g>
+        <circle cx="231" cy="151" r="4.4" fill="#FFF8E6"/><circle cx="248" cy="169" r="1.8" fill="#FFF8E6" fill-opacity=".8"/>
+        <ellipse cx="240" cy="160" rx="25" ry="21" transform="rotate(8 240 160)" fill="none" stroke="#E2C47E" stroke-width="2"/>
+      </g>
+    </svg>
+
+    <h1 id="hero-title"><span class="h1-name">Евгения</span><span class="vh"> — </span><span class="h1-role">астролог и&nbsp;мастер <span class="nw">Симболон-карт</span></span></h1>
+    <p class="hero-lead">Астрологические консультации и&nbsp;расклады на&nbsp;Симболон-картах онлайн&nbsp;— для комплексного понимания себя. Созвон, голосовые или текст.</p>
+    <a class="cta" href="#booking" data-look data-slow-blink>Записаться <span aria-hidden="true">→</span></a>
+    <p class="hero-note">Расклады от&nbsp;500&nbsp;₽</p>
+  </section>
+
+  <section class="section" id="about" aria-labelledby="about-title" data-guide="look">
+    <p class="plate">Таблица I</p>
+    <div class="about">
+      <div class="portrait" data-guide-target>
+        <picture>
+          <source type="image/avif" srcset="img/evgenia-480.avif 480w, img/evgenia-720.avif 720w" sizes="(min-width: 900px) 440px, min(calc(100vw - 2rem), 440px)">
+          <img class="portrait-img" src="img/evgenia-480.png" width="480" height="600" alt="Евгения, астролог и мастер Симболон-карт" loading="lazy" decoding="async">
+        </picture>
+      </div>
+      <div class="about-text">
+        <h2 class="h2" id="about-title">Обо мне: таролог с&nbsp;опытом больше 5&nbsp;лет</h2>
+        <p>Евгения&nbsp;— астролог и&nbsp;мастер Симболон-карт, практикует больше 5&nbsp;лет. Её подход&nbsp;— комплексное понимание себя.</p>
+        <p>Консультации проходят онлайн, в&nbsp;удобном для вас формате: созвон, голосовые сообщения или текст.</p>
+        <ul class="facts">
+          <li><b>5+</b><span>лет практики</span></li>
+          <li><b>2</b><span>направления: астрология и&nbsp;Симболон-карты</span></li>
+          <li><b>3</b><span>формата на&nbsp;выбор: созвон, голосовые или текст</span></li>
+        </ul>
+        <a class="cta" href="#directions">Выбрать консультацию</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section directions" id="directions" aria-labelledby="dir-title" data-guide="reach">
+    <p class="plate">Таблица II</p>
+    <h2 class="h2" id="dir-title">Два направления: <em>астрология</em> и&nbsp;<em>Симболон-карты</em></h2>
+    <p class="dir-intro">Выберите карту&nbsp;— кошка снимет её с&nbsp;нити и&nbsp;откроет список услуг с&nbsp;ценами.</p>
+    <p class="vh" id="dir-status" aria-live="polite"></p>
+
+    <div class="stage" data-stage data-guide-target>
+      <div class="dust" data-dust="40" aria-hidden="true"></div>
+      <div class="hang-slot deco deco-1" aria-hidden="true"><div class="para" data-para=".25"><div class="hang"><span class="thread"></span><div class="turn"><span class="mini-card"><svg viewBox="-50 -75 100 150"><circle r="22" fill="none" stroke="#B8924A"/><path d="M0 -12L3 -3L12 0L3 3L0 12L-3 3L-12 0L-3 -3Z" fill="#E2C47E"/></svg></span></div></div></div></div>
+      <div class="hang-slot deco deco-2" aria-hidden="true"><div class="para" data-para=".35"><div class="hang"><span class="thread"></span><div class="turn"><span class="mini-card"><svg viewBox="-50 -75 100 150"><path d="M8 -20A20 20 0 1 0 8 20A15 15 0 1 1 8 -20Z" fill="#E2C47E" fill-opacity=".85"/></svg></span></div></div></div></div>
+      <div class="hang-slot deco deco-3" aria-hidden="true"><div class="para" data-para=".2"><div class="hang"><span class="thread"></span><div class="turn"><span class="mini-card"><svg viewBox="-50 -75 100 150"><circle r="22" fill="none" stroke="#B8924A" stroke-dasharray="2 4"/><circle r="4" fill="#E2C47E"/></svg></span></div></div></div></div>
+
+      <div class="hang-slot hang-slot--astro"><div class="para" data-para=".6"><div class="drop"><div class="hang"><span class="thread" aria-hidden="true"></span><div class="turn">
+        <button class="dir-card" type="button" data-dir="astrology" data-label="Астрология, 3 услуги" data-side="l" aria-controls="astrology" disabled>
+          <span class="card-inner">
+            <span class="card-face card-back">
+              <span class="card-num" aria-hidden="true">I</span>
+              <svg class="card-emb" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false"><circle r="40" fill="none" stroke="#E2C47E"/><circle r="44" fill="none" stroke="#E2C47E" stroke-opacity=".4"/><path d="M18 0L30 0M15.6 9L26 15M9 15.6L15 26M0 18L0 30M-9 15.6L-15 26M-15.6 9L-26 15M-18 0L-30 0M-15.6 -9L-26 -15M-9 -15.6L-15 -26M0 -18L0 -30M9 -15.6L15 -26M15.6 -9L26 -15" stroke="#E2C47E" stroke-linecap="round"/><circle r="12" fill="#E2C47E"/></svg>
+              <span><span class="card-name">Астрология</span><br><span class="card-meta">3&nbsp;услуги · от&nbsp;3&nbsp;000&nbsp;₽</span></span>
+            </span>
+            <span class="card-face card-front" aria-hidden="true">
+              <span class="card-num">I</span>
+              <svg class="card-emb" viewBox="-50 -50 100 100" focusable="false"><circle r="40" fill="none" stroke="#0C1430"/><path d="M18 0L30 0M15.6 9L26 15M9 15.6L15 26M0 18L0 30M-9 15.6L-15 26M-15.6 9L-26 15M-18 0L-30 0M-15.6 -9L-26 -15M-9 -15.6L-15 -26M0 -18L0 -30M9 -15.6L15 -26M15.6 -9L26 -15" stroke="#0C1430" stroke-linecap="round"/><circle r="12" fill="none" stroke="#0C1430" stroke-width="2"/><circle r="4" fill="#0C1430"/></svg>
+              <span><span class="card-name">Астрология</span><br><span class="card-meta">Ваша карта · список ниже</span></span>
+            </span>
+          </span>
+        </button>
+      </div></div></div></div></div>
+
+      <div class="hang-slot hang-slot--symb"><div class="para" data-para=".75"><div class="drop"><div class="hang"><span class="thread" aria-hidden="true"></span><div class="turn">
+        <button class="dir-card" type="button" data-dir="symbolon" data-label="Симболон-карты, 13 раскладов" data-side="r" aria-controls="symbolon" disabled>
+          <span class="card-inner">
+            <span class="card-face card-back">
+              <span class="card-num" aria-hidden="true">II</span>
+              <svg class="card-emb" viewBox="-50 -50 100 100" aria-hidden="true" focusable="false"><circle r="40" fill="none" stroke="#E2C47E"/><circle cx="-10" r="20" fill="none" stroke="#E2C47E"/><circle cx="10" r="20" fill="none" stroke="#E2C47E"/><path d="M0 -8L2.2 -2.2L8 0L2.2 2.2L0 8L-2.2 2.2L-8 0L-2.2 -2.2Z" fill="#E2C47E"/></svg>
+              <span><span class="card-name">Симболон</span><br><span class="card-meta">13&nbsp;раскладов · от&nbsp;500&nbsp;₽</span></span>
+            </span>
+            <span class="card-face card-front" aria-hidden="true">
+              <span class="card-num">II</span>
+              <svg class="card-emb" viewBox="-50 -50 100 100" focusable="false"><circle r="40" fill="none" stroke="#0C1430"/><circle cx="-10" r="20" fill="none" stroke="#0C1430" stroke-width="1.6"/><circle cx="10" r="20" fill="none" stroke="#0C1430" stroke-width="1.6"/><path d="M0 -8L2.2 -2.2L8 0L2.2 2.2L0 8L-2.2 2.2L-8 0L-2.2 -2.2Z" fill="#0C1430"/></svg>
+              <span><span class="card-name">Симболон</span><br><span class="card-meta">Ваша карта · список ниже</span></span>
+            </span>
+          </span>
+        </button>
+      </div></div></div></div></div>
+
+      <svg class="cat cat--peek" data-cat="peek" viewBox="60 20 280 262" width="280" height="262" aria-hidden="true" focusable="false">
+        <path d="M60 250H340" stroke="#E2C47E" stroke-width="1.4"/>
+        <g class="peek-body">
+          <g class="cat-paw cat-paw-l">
+            <path d="M120 214C117 236 116 254 119 264C124 276 152 276 157 264C160 254 159 236 156 214Z" fill="url(#a-fur)" stroke="#E2C47E" stroke-width="2"/>
+            <path d="M129 270v-7M138 272v-8M147 270v-7M126 232C124 244 124 252 126 258" fill="none" stroke="#E2C47E" stroke-opacity=".7" stroke-width="1.2" stroke-linecap="round"/>
+          </g>
+          <g class="cat-paw cat-paw-r">
+            <path d="M280 214C283 236 284 254 281 264C276 276 248 276 243 264C240 254 241 236 244 214Z" fill="url(#a-fur)" stroke="#E2C47E" stroke-width="2"/>
+            <path d="M271 270v-7M262 272v-8M253 270v-7M274 232C276 244 276 252 274 258" fill="none" stroke="#E2C47E" stroke-opacity=".7" stroke-width="1.2" stroke-linecap="round"/>
+          </g>
+          <g transform="translate(0 12)">
+            <use href="#a-head"/>
+            <g class="cat-eye" data-eye data-blink>
+              <ellipse class="cat-eye-shape" cx="160" cy="160" rx="25" ry="21" transform="rotate(-8 160 160)" fill="url(#a-iris)"/>
+              <g clip-path="url(#a-clip-l)"><g class="cat-look"><ellipse cx="160" cy="158" rx="9" ry="16" fill="#04060D"/></g></g>
+              <circle cx="151" cy="151" r="4.4" fill="#FFF8E6"/>
+              <ellipse cx="160" cy="160" rx="25" ry="21" transform="rotate(-8 160 160)" fill="none" stroke="#E2C47E" stroke-width="2"/>
+            </g>
+            <g class="cat-eye" data-eye data-blink>
+              <ellipse class="cat-eye-shape" cx="240" cy="160" rx="25" ry="21" transform="rotate(8 240 160)" fill="url(#a-iris)"/>
+              <g clip-path="url(#a-clip-r)"><g class="cat-look"><ellipse cx="240" cy="158" rx="9" ry="16" fill="#04060D"/></g></g>
+              <circle cx="231" cy="151" r="4.4" fill="#FFF8E6"/>
+              <ellipse cx="240" cy="160" rx="25" ry="21" transform="rotate(8 240 160)" fill="none" stroke="#E2C47E" stroke-width="2"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+
+      <button class="btn-ghost stage-pause" type="button" data-pause>Остановить анимацию</button>
+    </div>
+  </section>
+
+  <section class="section services" id="astrology" aria-labelledby="astro-title" data-guide="lie">
+    <p class="plate">Таблица II · а</p>
+    <h2 class="h2" id="astro-title">Астрологические консультации онлайн</h2>
+    <p class="svc-note">Формат любой услуги: созвон, голосовые или текст&nbsp;— по&nbsp;вашему выбору.</p>
+    <ul class="svc-list svc-list--two" data-guide-target>
+      <li class="svc" data-service="natal" data-group="astrology" data-name="Разбор натальной карты" data-price="8000">
+        <div class="svc-head"><h3 class="svc-name">Разбор натальной карты</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">8&nbsp;000&nbsp;₽</p></div>
+        <p class="svc-desc">Подробный разбор натальной карты: положение планет, знаков и&nbsp;домов в&nbsp;вашей карте.</p>
+        <a class="svc-book" href="#booking" data-book="natal">Записаться<span class="vh">: разбор натальной карты</span> <span aria-hidden="true">→</span></a>
+      </li>
+      <li class="svc" data-service="solar" data-group="astrology" data-name="Соляр (прогноз на год от дня рождения)" data-price="5000">
+        <div class="svc-head"><h3 class="svc-name">Соляр: прогноз на&nbsp;год от&nbsp;дня рождения</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">5&nbsp;000&nbsp;₽</p></div>
+        <p class="svc-desc">Разбор карты солнечного возвращения: темы и&nbsp;акценты года от&nbsp;одного дня рождения до&nbsp;следующего.</p>
+        <a class="svc-book" href="#booking" data-book="solar">Записаться<span class="vh">: соляр</span> <span aria-hidden="true">→</span></a>
+      </li>
+      <li class="svc" data-service="spheres" data-group="astrology" data-name="Разбор отдельных сфер" data-price="3000">
+        <div class="svc-head"><h3 class="svc-name">Разбор отдельных сфер</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">3&nbsp;000&nbsp;₽</p></div>
+        <p class="svc-desc">Разбор выбранной сферы по&nbsp;натальной карте: например, отношений, финансов или самореализации.</p>
+        <a class="svc-book" href="#booking" data-book="spheres">Записаться<span class="vh">: разбор отдельных сфер</span> <span aria-hidden="true">→</span></a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section services" id="symbolon" aria-labelledby="symb-title" data-guide="lie">
+    <p class="plate">Таблица II · б</p>
+    <h2 class="h2" id="symb-title">Расклады на&nbsp;Симболон-картах онлайн</h2>
+    <p class="svc-note">Симболон&nbsp;— астрологически-психологическая колода. Формат любой услуги: созвон, голосовые или текст&nbsp;— по&nbsp;вашему выбору.</p>
+    <ul class="svc-list svc-list--two" data-guide-target>
+      <li class="svc" data-service="sym-basic" data-group="symbolon" data-name="Обычный расклад" data-price="500"><div class="svc-head"><h3 class="svc-name">Обычный расклад</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">500&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах по&nbsp;вашему вопросу из&nbsp;любой сферы жизни.</p><a class="svc-book" href="#booking" data-book="sym-basic">Записаться<span class="vh">: обычный расклад</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-astro-portrait" data-group="symbolon" data-name="Астрологический портрет" data-price="600"><div class="svc-head"><h3 class="svc-name">Астрологический портрет</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">600&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах, который описывает вас через астрологические символы.</p><a class="svc-book" href="#booking" data-book="sym-astro-portrait">Записаться<span class="vh">: астрологический портрет</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-psy-portrait" data-group="symbolon" data-name="Психологический портрет" data-price="900"><div class="svc-head"><h3 class="svc-name">Психологический портрет</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">900&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах о&nbsp;ваших качествах, мотивах и&nbsp;особенностях характера. Это не&nbsp;психологическая консультация.</p><a class="svc-book" href="#booking" data-book="sym-psy-portrait">Записаться<span class="vh">: психологический портрет</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-inner-conflict" data-group="symbolon" data-name="Внутренний конфликт" data-price="900"><div class="svc-head"><h3 class="svc-name">Внутренний конфликт</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">900&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах о&nbsp;противоречиях между «хочу» и&nbsp;«надо» и&nbsp;о&nbsp;том, что за&nbsp;ними стоит.</p><a class="svc-book" href="#booking" data-book="sym-inner-conflict">Записаться<span class="vh">: внутренний конфликт</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-loneliness" data-group="symbolon" data-name="Причины одиночества" data-price="800"><div class="svc-head"><h3 class="svc-name">Причины одиночества</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">800&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах о&nbsp;том, что может влиять на&nbsp;отсутствие близких отношений.</p><a class="svc-book" href="#booking" data-book="sym-loneliness">Записаться<span class="vh">: причины одиночества</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-finance" data-group="symbolon" data-name="Финансовый расклад" data-price="800"><div class="svc-head"><h3 class="svc-name">Финансовый расклад</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">800&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах о&nbsp;вашем отношении к&nbsp;деньгам и&nbsp;финансовым вопросам.</p><a class="svc-book" href="#booking" data-book="sym-finance">Записаться<span class="vh">: финансовый расклад</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-relations" data-group="symbolon" data-name="Существующие отношения" data-price="800"><div class="svc-head"><h3 class="svc-name">Существующие отношения</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">800&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах о&nbsp;том, как складываются ваши текущие отношения.</p><a class="svc-book" href="#booking" data-book="sym-relations">Записаться<span class="vh">: существующие отношения</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-couple-conflict" data-group="symbolon" data-name="Конфликт в паре" data-price="1000"><div class="svc-head"><h3 class="svc-name">Конфликт в&nbsp;паре</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">1&nbsp;000&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах о&nbsp;причинах и&nbsp;динамике конфликта между партнёрами.</p><a class="svc-book" href="#booking" data-book="sym-couple-conflict">Записаться<span class="vh">: конфликт в&nbsp;паре</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-triangle" data-group="symbolon" data-name="Любовный треугольник" data-price="1500"><div class="svc-head"><h3 class="svc-name">Любовный треугольник</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">1&nbsp;500&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах о&nbsp;ситуации с&nbsp;участием трёх людей и&nbsp;роли каждого.</p><a class="svc-book" href="#booking" data-book="sym-triangle">Записаться<span class="vh">: любовный треугольник</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-thoughts" data-group="symbolon" data-name="Мысли и чувства человека" data-price="800"><div class="svc-head"><h3 class="svc-name">Мысли и&nbsp;чувства человека</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">800&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах о&nbsp;том, что может думать и&nbsp;чувствовать другой человек.</p><a class="svc-book" href="#booking" data-book="sym-thoughts">Записаться<span class="vh">: мысли и&nbsp;чувства человека</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-month" data-group="symbolon" data-name="Прогноз на месяц" data-price="1500"><div class="svc-head"><h3 class="svc-name">Прогноз на&nbsp;месяц</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">1&nbsp;500&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах: темы и&nbsp;акценты ближайшего месяца.</p><a class="svc-book" href="#booking" data-book="sym-month">Записаться<span class="vh">: прогноз на&nbsp;месяц</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-half-year" data-group="symbolon" data-name="Прогноз на полгода" data-price="2500"><div class="svc-head"><h3 class="svc-name">Прогноз на&nbsp;полгода</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">2&nbsp;500&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах: темы и&nbsp;акценты ближайших шести месяцев.</p><a class="svc-book" href="#booking" data-book="sym-half-year">Записаться<span class="vh">: прогноз на&nbsp;полгода</span> <span aria-hidden="true">→</span></a></li>
+      <li class="svc" data-service="sym-year" data-group="symbolon" data-name="Прогноз на год" data-price="5000"><div class="svc-head"><h3 class="svc-name">Прогноз на&nbsp;год</h3><span class="svc-dots" aria-hidden="true"></span><p class="svc-price">5&nbsp;000&nbsp;₽</p></div><p class="svc-desc">Расклад на&nbsp;Симболон-картах: темы и&nbsp;акценты ближайшего года.</p><a class="svc-book" href="#booking" data-book="sym-year">Записаться<span class="vh">: прогноз на&nbsp;год</span> <span aria-hidden="true">→</span></a></li>
+    </ul>
+  </section>
+
+  <section class="section" id="how" aria-labelledby="how-title" data-guide="sit">
+    <p class="plate">Таблица III</p>
+    <h2 class="h2" id="how-title">Как проходит консультация</h2>
+    <ol class="steps" data-guide-target>
+      <li class="step"><svg class="step-star" viewBox="-12 -12 24 24" aria-hidden="true" focusable="false"><circle r="11" fill="none" stroke="#B8924A"/><path d="M0 -7L2 -2L7 0L2 2L0 7L-2 2L-7 0L-2 -2Z" fill="#E2C47E"/></svg><span class="step-num">01</span><h3>Выберите услугу</h3><p>Выберите карту выше&nbsp;— откроется список с&nbsp;ценами.</p></li>
+      <li class="step"><svg class="step-star" viewBox="-12 -12 24 24" aria-hidden="true" focusable="false"><circle r="11" fill="none" stroke="#B8924A"/><path d="M0 -7L2 -2L7 0L2 2L0 7L-2 2L-7 0L-2 -2Z" fill="#E2C47E"/></svg><span class="step-num">02</span><h3>Выберите дату и&nbsp;время</h3><p>Ежедневно с&nbsp;10:00 до&nbsp;17:00 по&nbsp;МСК+2. Время желаемое&nbsp;— Евгения подтвердит&nbsp;его.</p></li>
+      <li class="step"><svg class="step-star" viewBox="-12 -12 24 24" aria-hidden="true" focusable="false"><circle r="11" fill="none" stroke="#B8924A"/><path d="M0 -7L2 -2L7 0L2 2L0 7L-2 2L-7 0L-2 -2Z" fill="#E2C47E"/></svg><span class="step-num">03</span><h3>Отправьте заявку в&nbsp;Telegram</h3><p>Сайт соберёт текст заявки, вам останется нажать «Отправить» в&nbsp;чате @yourfreckle.</p></li>
+      <li class="step"><svg class="step-star" viewBox="-12 -12 24 24" aria-hidden="true" focusable="false"><circle r="11" fill="none" stroke="#B8924A"/><path d="M0 -7L2 -2L7 0L2 2L0 7L-2 2L-7 0L-2 -2Z" fill="#E2C47E"/></svg><span class="step-num">04</span><h3>Получите разбор</h3><p>В&nbsp;формате, который вы выбрали.</p></li>
+    </ol>
+    <ul class="formats" aria-label="Форматы">
+      <li><svg viewBox="0 0 18 18" aria-hidden="true" focusable="false"><path d="M5 2l2.5 3.5-1.6 1.6a9 9 0 0 0 5 5l1.6-1.6L16 13l-1.5 2.5C8 15.5 2.5 10 2.5 3.5Z" fill="none" stroke="#E2C47E" stroke-width="1.3" stroke-linejoin="round"/></svg>Созвон</li>
+      <li><svg viewBox="0 0 18 18" aria-hidden="true" focusable="false"><path d="M3 7v4M6 4v10M9 6v6M12 3v12M15 7v4" stroke="#E2C47E" stroke-width="1.4" stroke-linecap="round"/></svg>Голосовые</li>
+      <li><svg viewBox="0 0 18 18" aria-hidden="true" focusable="false"><path d="M3 4h12M3 8h12M3 12h8" stroke="#E2C47E" stroke-width="1.4" stroke-linecap="round"/></svg>Текст</li>
+    </ul>
+  </section>
+
+  <section class="section" id="booking" aria-labelledby="booking-title" data-guide="point">
+    <p class="plate">Таблица IV</p>
+    <h2 class="h2" id="booking-title">Запись на&nbsp;консультацию</h2>
+    <p class="lead-s">Выберите услугу, дату и&nbsp;время&nbsp;— сайт соберёт заявку, а&nbsp;вы отправите её Евгении в&nbsp;Telegram. Сайт ничего не&nbsp;сохраняет.</p>
+    <form class="booking-form" id="booking-form" action="https://t.me/yourfreckle" method="get"
+      data-tz="Asia/Yekaterinburg" data-tz-label="МСК+2" data-days="1,2,3,4,5,6,7" data-open="10:00" data-close="17:00"
+      data-step="60" data-min-lead="60" data-horizon="30" data-closed="" data-telegram="yourfreckle">
+      <div class="nojs-only">
+        <label class="label" for="nojs-text">Текст заявки</label>
+        <p class="hint" id="nojs-hint">Заполните строки и&nbsp;нажмите «Отправить в&nbsp;Telegram»: текст откроется в&nbsp;чате @yourfreckle. Запись ежедневно с&nbsp;10:00 до&nbsp;17:00 по&nbsp;МСК+2.</p>
+        <textarea class="input" id="nojs-text" name="text" rows="7" required aria-describedby="nojs-hint">Здравствуйте, Евгения! Хочу записаться на консультацию.
+Услуга:
+Дата:
+Время (МСК+2, с 10:00 до 16:00):
+Формат (созвон, голосовые или текст):
+Имя: </textarea>
+      </div>
+      <fieldset class="booking-rich" disabled>
+        <div class="booking-grid">
+          <div class="booking-col">
+            <div class="field" id="field-service">
+              <label class="label" for="f-service">Услуга <span class="req-mark">обязательно</span></label>
+              <select class="input select" id="f-service" aria-required="true" aria-describedby="err-service">
+                <option value="">Выберите услугу</option>
+              </select>
+              <p class="field-error" id="err-service" hidden></p>
+            </div>
+            <fieldset class="field group" id="field-date" aria-describedby="err-date">
+              <legend class="label">Дата <span class="req-mark">обязательно</span></legend>
+              <div class="cal-nav">
+                <button class="cal-btn" type="button" id="cal-prev" aria-label="Предыдущий месяц" aria-controls="cal-months"><svg viewBox="0 0 14 14" aria-hidden="true" focusable="false"><path d="M9 2L4 7l5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+                <p class="cal-title" id="cal-title" aria-live="polite"></p>
+                <button class="cal-btn" type="button" id="cal-next" aria-label="Следующий месяц" aria-controls="cal-months"><svg viewBox="0 0 14 14" aria-hidden="true" focusable="false"><path d="M5 2l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+              </div>
+              <div id="cal-months"></div>
+              <p class="field-error" id="err-date" hidden></p>
+            </fieldset>
+          </div>
+          <div class="booking-col">
+            <fieldset class="field group" id="field-time" aria-describedby="tz-hint err-time">
+              <legend class="label">Время, МСК+2 <span class="req-mark">обязательно</span></legend>
+              <p class="hint" id="tz-hint">Время указано по&nbsp;МСК+2 (Екатеринбург).</p>
+              <div id="slots"></div>
+              <p class="field-error" id="err-time" hidden></p>
+            </fieldset>
+            <fieldset class="field group" id="field-format" aria-describedby="err-format">
+              <legend class="label">Формат <span class="req-mark">обязательно</span></legend>
+              <div class="chips">
+                <label class="chip"><input class="vh-in" type="radio" name="format" value="созвон"><span class="chip-face">Созвон</span></label>
+                <label class="chip"><input class="vh-in" type="radio" name="format" value="голосовые"><span class="chip-face">Голосовые</span></label>
+                <label class="chip"><input class="vh-in" type="radio" name="format" value="текст"><span class="chip-face">Текст</span></label>
+              </div>
+              <p class="field-error" id="err-format" hidden></p>
+            </fieldset>
+            <div class="field" id="field-name">
+              <label class="label" for="f-name">Как к&nbsp;вам обращаться <span class="req-mark">обязательно</span></label>
+              <input class="input" id="f-name" type="text" autocomplete="given-name" maxlength="60" aria-required="true" aria-describedby="err-name" placeholder="Например, Анна">
+              <p class="field-error" id="err-name" hidden></p>
+            </div>
+            <div class="field">
+              <label class="label" for="f-comment">Комментарий <span class="opt">по&nbsp;желанию</span></label>
+              <textarea class="input" id="f-comment" rows="3" maxlength="300" aria-describedby="comment-count" placeholder="Вопрос или пожелание"></textarea>
+              <p class="hint" id="comment-count">0 из&nbsp;300 символов</p>
+            </div>
+          </div>
+        </div>
+        <p class="choice" id="choice" aria-live="polite"></p>
+      </fieldset>
+      <div class="form-errors" id="form-errors" role="alert" hidden></div>
+      <div class="booking-actions">
+        <button class="cta cta--wide" type="submit" id="booking-submit" data-slow-blink data-guide-target>
+          <svg class="cta-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M2 9.5L18 3l-3 14-5.2-4.2L7 16v-4.5L15 5 6 10.8Z" fill="currentColor"/></svg>
+          <span class="cta-label">Отправить в&nbsp;Telegram</span>
+        </button>
+        <p class="hint">Время желаемое&nbsp;— Евгения подтвердит его в&nbsp;Telegram. Текст заявки передаётся в&nbsp;чат @yourfreckle через ссылку t.me: его увидят Telegram и&nbsp;Евгения после отправки.</p>
+        <p class="hint">Консультации и&nbsp;расклады носят информационный характер и&nbsp;не&nbsp;являются медицинской, психологической или иной профессиональной помощью.</p>
+      </div>
+      <div class="result" id="result" tabindex="-1" hidden>
+        <h3 class="result-title">Заявка готова</h3>
+        <p class="result-status" id="result-status" role="status"></p>
+        <p>Если Telegram не&nbsp;открылся или поле сообщения пустое:</p>
+        <ol class="result-steps"><li>Откройте чат @yourfreckle.</li><li>Вставьте текст в поле сообщения: долгое нажатие → «Вставить» или Ctrl/⌘&nbsp;+&nbsp;V.</li><li>Нажмите «Отправить».</li></ol>
+        <pre class="result-text" id="result-text" tabindex="0" aria-label="Текст заявки"></pre>
+        <div class="result-actions">
+          <button class="btn-ghost" type="button" id="copy-again">Скопировать текст заявки</button>
+          <a class="btn-ghost" id="tg-app" href="tg://resolve?domain=yourfreckle">Открыть в&nbsp;приложении Telegram</a>
+          <a class="btn-ghost" href="https://t.me/yourfreckle" target="_blank" rel="noopener">Открыть чат @yourfreckle</a>
+          <button class="btn-link" type="button" id="edit-request">Изменить заявку</button>
+        </div>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="footer" data-guide="curl" data-guide-footer>
+  <h2 class="vh">Контакты</h2>
+  <p>Запись и&nbsp;вопросы</p>
+  <a class="footer-tg" href="https://t.me/yourfreckle" rel="noopener">Telegram <span>@yourfreckle</span></a>
+  <p>Консультации и&nbsp;расклады носят информационный характер и&nbsp;не&nbsp;являются медицинской, психологической или иной профессиональной помощью.</p>
+  <div class="footer-row">
+    <a href="privacy.html">Политика конфиденциальности</a>
+    <button class="btn-link" type="button" data-guide-toggle hidden>Спрятать кошку-проводника</button>
+  </div>
+  <p>© 2026 Евгения</p>
+</footer>
+
+<div class="trail" id="trail" aria-hidden="true"></div>
+<div class="guide is-home" id="guide" data-dock="r" data-pose="sit" data-body="sit" data-face="l" hidden>
+  <div class="guide-duck">
+    <button class="guide-btn" type="button" aria-label="Кошка-проводник" aria-expanded="false" aria-controls="guide-menu">
+      <svg class="gc" data-cat="guide" viewBox="0 0 160 160" width="160" height="160" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="g-fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#18224A"/><stop offset="1" stop-color="#05080F"/></linearGradient>
+          <radialGradient id="g-iris" cx="50%" cy="62%" r="62%"><stop offset="0" stop-color="#FCE9AE"/><stop offset=".55" stop-color="#E6B85A"/><stop offset="1" stop-color="#9C6A24"/></radialGradient>
+        </defs>
+        <g class="gc-body gc-body--sit">
+          <g class="gc-tail"><path d="M110 148C132 152 148 138 144 118C142 108 136 104 138 96" fill="none" stroke="#E2C47E" stroke-width="11" stroke-linecap="round"/><path d="M110 148C132 152 148 138 144 118C142 108 136 104 138 96" fill="none" stroke="#0A0F22" stroke-width="7" stroke-linecap="round"/></g>
+          <path d="M64 66C54 80 50 100 52 116C42 124 40 140 48 150L112 150C120 140 118 124 108 116C110 100 106 80 96 66Z" fill="url(#g-fur)" stroke="#E2C47E" stroke-width="2.6" stroke-linejoin="round"/>
+          <path d="M60 84C56 96 55 108 56 118M100 84C104 96 105 108 104 118M55 128C50 136 50 143 53 148M105 128C110 136 110 143 107 148" fill="none" stroke="#E2C47E" stroke-opacity=".5" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M68 100V144" stroke="#E2C47E" stroke-width="12" stroke-linecap="round"/><path d="M68 100V144" stroke="#0A0F22" stroke-width="8" stroke-linecap="round"/>
+          <path d="M65 76Q80 86 95 76" fill="none" stroke="#E2C47E" stroke-width="2.6" stroke-linecap="round"/>
+          <path d="M84 81A3.5 3.5 0 1 0 84 88A5 5 0 0 1 84 81Z" fill="#E2C47E"/>
+        </g>
+        <g class="gc-body gc-body--lie">
+          <g class="gc-tail"><path d="M30 146C14 150 8 138 16 128C20 122 26 122 30 118" fill="none" stroke="#E2C47E" stroke-width="11" stroke-linecap="round"/><path d="M30 146C14 150 8 138 16 128C20 122 26 122 30 118" fill="none" stroke="#0A0F22" stroke-width="7" stroke-linecap="round"/></g>
+          <path d="M26 150C22 134 32 118 56 114L104 112C122 112 134 124 134 140L134 150Z" fill="url(#g-fur)" stroke="#E2C47E" stroke-width="2.6" stroke-linejoin="round"/>
+          <path d="M44 124Q52 136 50 148M60 120Q70 132 68 148M78 118Q86 130 84 146" fill="none" stroke="#E2C47E" stroke-opacity=".5" stroke-width="1.4" stroke-linecap="round"/>
+          <ellipse cx="104" cy="150" rx="11" ry="4.5" fill="#0A0F22" stroke="#E2C47E" stroke-width="2"/><ellipse cx="128" cy="150" rx="11" ry="4.5" fill="#0A0F22" stroke="#E2C47E" stroke-width="2"/>
+        </g>
+        <g class="gc-body gc-body--curl">
+          <path d="M24 150C18 128 34 102 72 100C110 98 136 116 136 138C136 146 132 150 124 150Z" fill="url(#g-fur)" stroke="#E2C47E" stroke-width="2.6" stroke-linejoin="round"/>
+          <path d="M78 108Q104 106 122 124M84 116Q104 116 118 132M94 126Q106 128 112 140" fill="none" stroke="#E2C47E" stroke-opacity=".5" stroke-width="1.4" stroke-linecap="round"/>
+          <g class="gc-tail"><path d="M130 146C114 158 66 158 40 148" fill="none" stroke="#E2C47E" stroke-width="11" stroke-linecap="round"/><path d="M130 146C114 158 66 158 40 148" fill="none" stroke="#0A0F22" stroke-width="7" stroke-linecap="round"/></g>
+        </g>
+        <g class="gc-body gc-body--jump">
+          <g class="gc-tail"><path d="M40 108C26 102 18 92 20 76" fill="none" stroke="#E2C47E" stroke-width="11" stroke-linecap="round"/><path d="M40 108C26 102 18 92 20 76" fill="none" stroke="#0A0F22" stroke-width="7" stroke-linecap="round"/></g>
+          <path d="M50 116L22 132M58 120L36 140M110 108L142 118M100 112L128 128" stroke="#E2C47E" stroke-width="11" stroke-linecap="round"/>
+          <path d="M50 116L22 132M58 120L36 140M110 108L142 118M100 112L128 128" stroke="#0A0F22" stroke-width="7" stroke-linecap="round"/>
+          <path d="M36 112C44 96 78 86 108 88C124 90 132 98 128 108C120 118 86 122 58 122C46 122 34 120 36 112Z" fill="url(#g-fur)" stroke="#E2C47E" stroke-width="2.6" stroke-linejoin="round"/>
+          <path d="M60 100Q80 96 100 98M64 110Q84 108 104 108" fill="none" stroke="#E2C47E" stroke-opacity=".5" stroke-width="1.4" stroke-linecap="round"/>
+        </g>
+        <g class="gc-head">
+          <path d="M-26 -8C-28 -20 -27 -32 -24 -40Q-23 -45 -19 -41C-14 -35 -9 -29 -5 -23Q0 -25 5 -23C9 -29 14 -35 19 -41Q23 -45 24 -40C27 -32 28 -20 26 -8C31 -1 32 7 30 13C24 23 12 28 0 28C-12 28 -24 23 -30 13C-32 7 -31 -1 -26 -8Z" fill="url(#g-fur)" stroke="#E2C47E" stroke-width="2.6" stroke-linejoin="round"/>
+          <path d="M-21 -35Q-18 -27 -11 -23Q-17 -21 -22 -17Q-23 -26 -21 -35ZM21 -35Q18 -27 11 -23Q17 -21 22 -17Q23 -26 21 -35Z" fill="#E2C47E" fill-opacity=".16" stroke="#E2C47E" stroke-opacity=".7" stroke-width="1.2"/>
+          <path d="M-7 -15Q0 -18 7 -15M-9 -10Q0 -13 9 -10M-27 2C-28 8 -27 13 -24 17M27 2C28 8 27 13 24 17" fill="none" stroke="#E2C47E" stroke-opacity=".55" stroke-width="1.3" stroke-linecap="round"/>
+          <g class="gc-eyes"><g class="gc-lids" data-blink>
+            <ellipse cx="-11" cy="3" rx="7.5" ry="6.5" fill="url(#g-iris)"/><ellipse cx="11" cy="3" rx="7.5" ry="6.5" fill="url(#g-iris)"/>
+            <g class="gc-look"><ellipse cx="-11" cy="3.4" rx="2.4" ry="5" fill="#04060D"/><ellipse cx="11" cy="3.4" rx="2.4" ry="5" fill="#04060D"/></g>
+            <circle cx="-13.6" cy=".4" r="1.5" fill="#FFF8E6"/><circle cx="8.4" cy=".4" r="1.5" fill="#FFF8E6"/>
+            <path d="M-18.5 3a7.5 6.5 0 1 0 15 0a7.5 6.5 0 1 0 -15 0M3.5 3a7.5 6.5 0 1 0 15 0a7.5 6.5 0 1 0 -15 0" fill="none" stroke="#E2C47E" stroke-width="1.5"/>
+          </g></g>
+          <path class="gc-closed" d="M-17 4Q-11 8 -5 4M5 4Q11 8 17 4" fill="none" stroke="#E2C47E" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M-3 13Q0 11 3 13Q2 16 0 17Q-2 16 -3 13Z" fill="#D7A86A"/>
+          <path d="M0 17V19M0 19Q-3 22 -6 20M0 19Q3 22 6 20" fill="none" stroke="#E2C47E" stroke-width="1.3" stroke-linecap="round"/>
+          <path d="M-8 15Q-20 13 -36 15M-8 18Q-20 19 -34 24M8 15Q20 13 36 15M8 18Q20 19 34 24" fill="none" stroke="#EFE3BF" stroke-opacity=".75" stroke-width="1" stroke-linecap="round"/>
+        </g>
+        <g class="gc-leg">
+          <path d="M92 100V144" stroke="#E2C47E" stroke-width="12" stroke-linecap="round"/><path d="M92 100V144" stroke="#0A0F22" stroke-width="8" stroke-linecap="round"/>
+          <path d="M88.5 146.5v-3M92 147.5v-4M95.5 146.5v-3" stroke="#E2C47E" stroke-opacity=".8" stroke-width="1.1" stroke-linecap="round"/>
+        </g>
+      </svg>
+    </button>
+  </div>
+  <div class="guide-menu" id="guide-menu" hidden>
+    <p>Провожу к&nbsp;записи</p>
+    <a class="cta cta--sm" href="#booking" data-guide-go>К&nbsp;записи</a>
+    <button class="btn-ghost" type="button" data-guide-hide>Спрятать кошку</button>
+  </div>
+</div>
+<button class="guide-restore" id="guide-restore" type="button" hidden aria-label="Показать кошку-проводника"><svg viewBox="0 0 22 22" aria-hidden="true" focusable="false"><g fill="currentColor"><ellipse cx="11" cy="15" rx="5" ry="4"/><circle cx="5" cy="9" r="2"/><circle cx="9" cy="5.5" r="2"/><circle cx="13" cy="5.5" r="2"/><circle cx="17" cy="9" r="2"/></g></svg></button>
+<p class="vh" id="guide-status" aria-live="polite"></p>
+
+<script src="js/cat.js" defer></script>
+<script src="js/directions.js" defer></script>
+<script src="js/booking.js" defer></script>
+<script src="js/guide.js" defer></script>
+</body>
+</html>
